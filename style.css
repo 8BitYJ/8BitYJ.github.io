@@ -1,0 +1,19 @@
+h1 {
+    font-size: 50px;
+    color:rgba(50, 25, 160, 0.651);
+}
+
+h2{
+    font-size: 35px;
+}
+
+body{
+    margin:70px;
+    background-color:rgba(187, 152, 252, 0.651)
+}
+
+.喜鹊{
+    float: right;
+    width: 600px;
+    height: 500px;
+}
