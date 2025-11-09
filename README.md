@@ -1,2 +1,2 @@
 # 8BitYJ.github.io
-Public Link: https://8bityj.github.io/
+Link: https://8bityj.github.io/
