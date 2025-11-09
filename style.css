@@ -1,19 +1,99 @@
-h1 {
-    font-size: 50px;
-    color:rgba(50, 25, 160, 0.651);
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
-h2{
-    font-size: 35px;
+html, body {
+  height: 100%;
 }
 
-body{
-    margin:70px;
-    background-color:rgba(187, 152, 252, 0.651)
+main {
+  flex: 1;
 }
 
-.喜鹊{
-    float: right;
-    width: 600px;
-    height: 500px;
+body {
+display: flex;
+flex-direction: column;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: var(--bg-color);
+color: var(--text-color);
+line-height: 1.6;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+:root {
+--bg-color: #121212;
+--text-color: #f5f5f5;
+--accent-color: #00bcd4;
+--card-bg: #1e1e1e;
+}
+
+
+.light-theme {
+--bg-color: #ffffff;
+--text-color: #222222;
+--accent-color: #007acc;
+--card-bg: #f5f5f5;
+}
+
+
+header {
+background: var(--card-bg);
+padding: 1rem 2rem;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: var(--accent-color);
+}
+
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+
+.nav-links a {
+color: var(--text-color);
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+
+.nav-links a:hover {
+color: var(--accent-color);
+}
+
+
+.theme-btn {
+background: none;
+border: none;
+color: var(--accent-color);
+font-size: 1.3rem;
+cursor: pointer;
+}
+
+
+.section {
+padding: 4rem 2rem;
+max-width: 1000px;
+margin: 0 auto;
 }
