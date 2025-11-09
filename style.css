@@ -114,7 +114,7 @@ margin: 0 auto;
   border: 3px solid var(--accent-color);
 }
 
-/* responsive on small screens */
+/* responsive on small screens fix pic too big */ 
 @media (max-width: 600px) {
   .about-container {
     flex-direction: column;
