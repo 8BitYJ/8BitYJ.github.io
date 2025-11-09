@@ -97,3 +97,31 @@ padding: 4rem 2rem;
 max-width: 1000px;
 margin: 0 auto;
 }
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem; /* space between image and text */
+  flex-wrap: wrap; /* responsive wrapping */
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
+}
+
+/* responsive on small screens */
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .headshot {
+    margin-bottom: 1rem;
+  }
+}
